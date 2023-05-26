@@ -7,4 +7,4 @@ public:
             m[nums[i]] = i;
         }
     }
-};
+};  
