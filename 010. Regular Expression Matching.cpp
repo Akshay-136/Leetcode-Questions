@@ -7,7 +7,7 @@ public:
         if(p[0] != '.' && s[0] != p[0]) return p[1] == '*' ? isMatch(s, p.substr(2)) : false;
         if(p[1] == '*') return isMatch(s.substr(1), p) || isMatch(s, p.substr(2));
         return isMatch(s.substr(1), p.substr(1));
-    }
+    } 
 };
 
 // Solution 2. DP
