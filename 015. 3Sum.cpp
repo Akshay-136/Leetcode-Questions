@@ -27,7 +27,7 @@ public:
             if (l > 0 && nums[l] == nums[l - 1]) {
                 continue;
             }
-            int r = n - 1;
+            int r = n - 1; 
             int mid = l + 1;
             while (mid < r) {
                 if (r < n - 1 && nums[r] == nums[r + 1]) {
