@@ -10,7 +10,7 @@ public:
                 if(hi < nums.size() - 1 && nums[hi] == nums[hi + 1]) continue;
                 while(nums[lo] < -(nums[i] + nums[hi])) lo++;
                 if(lo < hi && (nums[i] + nums[lo] + nums[hi]) == 0) res.push_back({nums[i], nums[lo], nums[hi]});
-            }
+            } 
         }
         return res;
     }
