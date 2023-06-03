@@ -11,7 +11,7 @@ public:
         for(int i = s.size() - 2; i >= 0; i--){  
             if(m[s[i]] >= m[s[i + 1]]) sum += m[s[i]];
             else sum -= m[s[i]];
-        }
+        } 
         return sum;
     }
 };
